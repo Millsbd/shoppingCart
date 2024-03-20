@@ -1,0 +1,22 @@
+HTML:
+-basic boilerplate with link to css sytlesheet.
+-header for title h1
+-main section for button and a show / hide cart span for text on button. 
+-div for products to go in.
+-script tag to js logic
+
+CSS:
+-root for color variables.
+-flext to display the products as they are created.
+-button with some poiner logic and a hover color chagne
+
+JS: 
+-declare variables for all the things you will need to use for JS logic grabbing them from the dom by id
+-an object containing all the info for the desserts
+-for each to loop through that object data and create the html to display the info on the site. 
+-a shopping cart class using this to declare a total which can be added to a tax rate and an empty array you will fill with items. 
+-add item logic to find in the object and fill the array with .push()
+-logic to count number of items
+-a clear function which checks if cart has anything in it and confirms intent before clearing. It also resets the cart to empty after confirmation.
+-logic to calculate tax and add to subtotal to get the totacl cost. 
+-new Class to build a cart, event listener to calculate the total and show and hide the cart and clar. 
